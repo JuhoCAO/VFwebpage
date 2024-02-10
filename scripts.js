@@ -151,8 +151,8 @@ document.addEventListener('DOMContentLoaded', () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: voiceflowAPIKey,
-        versionID: voiceflowVersionID,
+        Authorization: "VF.DM.65c75efe890487962ee34b4b.izI1O8s4mi6YhEEj",
+        versionID: "65a8fc4e6b8b4278d9494324",
       },
       body: JSON.stringify(body),
     })
